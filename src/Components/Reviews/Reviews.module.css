@@ -1,0 +1,155 @@
+.review {
+    background-color: white;
+    border-radius: 0.68vw;
+    padding: 0.88vw;
+    height: 15.3vw;
+    width: calc(100% - 1.37vw - 6%) !important;
+    margin: 1.37vw 3%;
+    box-shadow: 0px 0px 0.68vw 0.06vw rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 6vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.stars {
+    width: 17.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stars img {
+    width: 1.7vw;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    width: calc(100% - 19.5vw);
+    margin-left: 1vw;
+}
+
+.date {
+    color: gray;
+    font-size: 1.37vw;
+}
+
+.name {
+    font-size: 1.7vw;
+}
+
+.content {
+    margin: 1.37vw 0.34vw 0.68vw 0.34vw;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-clamp: 4;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 1.7vw;
+}
+
+.slider_rev{
+    width: 100%;
+    margin: auto;
+}
+
+.title{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #2f2f2f;
+}
+
+
+@media (max-width: 700px){
+    .review {
+        background-color: white;
+        border-radius: 2vw;
+        padding: 2vw;
+        height: 29vw;
+        width: calc(100% - 20px - 6%) !important;
+        margin: 4vw 3%;
+        box-shadow: 0px 0px 2vw 0.2vw rgba(0, 0, 0, 0.1);
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header img {
+        width: 10vw;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+    }
+    
+    .stars {
+        width: 17.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .stars img {
+        width: 3.5vw;
+    }
+    
+    .user_info {
+        display: flex;
+        flex-direction: column;
+        justify-self: start;
+        width: calc(100% - 32.5vw);
+    }
+    
+    .date {
+        color: gray;
+        font-size: 2.6vw;
+    }
+    
+    .name {
+        font-size: 3.2vw;
+    }
+    
+    .content {
+        margin: 4vw 1vw 2vw 1vw;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        line-clamp: 4;
+        box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -moz-box;
+        -moz-box-orient: vertical;
+        display: -webkit-box;
+    }
+    
+    .slider_rev{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .title{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        color: #2f2f2f;
+    }
+
+}

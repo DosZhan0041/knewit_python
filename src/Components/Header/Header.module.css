@@ -1,0 +1,151 @@
+header {
+    background-color: #3d3d3d;
+    padding: 5px 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: calc(100% - 10%);
+    height: 60px;
+    top: 0;
+    z-index: 4;
+    transition: 0.5s;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+header img {
+    width: 55px;
+}
+
+header a img {
+    width: 18px;
+}
+
+.scrolled{
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+}
+
+.scrolled a{
+    color: #404040;
+}
+
+.scrolled img{
+    filter: contrast(0) brightness(0.5);
+}
+
+
+
+
+@media (max-width: 10000px){
+    header {
+        background-color: #3d3d3d;
+        padding: 1vw 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        width: calc(90% - 10%);
+        height: 6vw;
+        top: 0;
+        z-index: 4;
+        transition: 0.5s;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+    }
+    
+    header img {
+        width: 6vw;
+    }
+    
+    header a img {
+        width: 2vw;
+    }
+
+    a{
+        font-size: 2vw;
+    }
+    
+    .scrolled{
+        background-color: transparent;
+        backdrop-filter: blur(0.8vw);
+    }
+    
+    .scrolled a{
+        color: #404040;
+    }
+    
+    .scrolled img{
+        filter: contrast(0) brightness(0.5);
+    }
+}
+
+@media (max-width: 700px){
+    header {
+        background-color: #3d3d3d;
+        padding: 1vw 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        width: calc(100%);
+        height: 12vw;
+        top: 0;
+        z-index: 4;
+        transition: 0.5s;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+    }
+    
+    header img {
+        width: 11vw;
+    }
+    
+    header a img {
+        width: 3.6vw;
+    }
+
+    a{
+        font-size: 3.4vw;
+    }
+    
+    .scrolled{
+        background-color: transparent;
+        backdrop-filter: blur(0.8vw);
+    }
+    
+    .scrolled a{
+        color: #404040;
+    }
+    
+    .scrolled img{
+        filter: contrast(0) brightness(0.5);
+    }
+}
+
+

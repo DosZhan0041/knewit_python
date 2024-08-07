@@ -1,0 +1,112 @@
+.content{
+    color: #2f2f2f;
+    background-color: white; 
+    margin: 1.37vw 3%;
+    padding: 2%;
+    border-radius: 0.68vw;
+    box-shadow: 0px 0px 0.68vw 0.06vw rgba(0, 0, 0, 0.1);
+    background: radial-gradient(circle at bottom right, #fcdbdb 0, #fff 110%);
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    padding: 0.34vw 0.68vw;
+    border-radius: 0.68vw;
+    align-items: center;
+    gap: 1.37vw;
+    color: #2f2f2f;
+}
+
+.head img{
+    width: 2.88vw;
+}
+
+.head p{
+    margin: 0;
+}
+
+.content h1{
+    color: #2f2f2f;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1.37vw;
+}
+
+.vacancies{
+    margin: 0 0.34vw 0.34vw 0.34vw;
+    border-radius: 0.68vw;
+}
+
+.vacancies div{
+    padding: 0.68vw;
+    background-color: #d6001c20;
+    margin: 0.68vw 0.34vw;
+    border-radius: 0.68vw;
+}
+
+.vacancies div a{
+    display: block;
+    text-decoration: none;
+    color: #d6001c;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+@media (max-width: 700px){
+    .content{
+        color: #2f2f2f;
+        background-color: white; 
+        margin: 20px 3%;
+        padding: 2%;
+        border-radius: 2vw;
+        box-shadow: 0px 0px 2vw 0.2vw rgba(0, 0, 0, 0.1);
+        background: radial-gradient(circle at bottom right, #fcdbdb 0, #fff 110%);
+    }
+    
+    .head{
+        display: flex;
+        flex-direction: row;
+        padding: 1vw 2vw;
+        border-radius: 2vw;
+        align-items: center;
+        gap: 4vw;
+        color: #2f2f2f;
+    }
+    
+    .head img{
+        width: 8.1vw;
+    }
+    
+    .head p{
+        margin: 0;
+    }
+    
+    .content h1{
+        color: #2f2f2f;
+        text-align: center;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+    }
+    
+    .vacancies{
+        margin: 0 1vw 1vw 1vw;
+        border-radius: 2vw;
+    }
+    
+    .vacancies div{
+        padding: 2vw;
+        background-color: #d6001c20;
+        margin: 2vw 1vw;
+        border-radius: 2vw;
+    }
+    
+    .vacancies div a{
+        display: block;
+        text-decoration: none;
+        color: #d6001c;
+        font-weight: 400;
+        width: 100%;
+    }
+}
