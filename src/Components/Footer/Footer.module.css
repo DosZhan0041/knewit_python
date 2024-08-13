@@ -1,7 +1,7 @@
 footer{
     padding: 1.37vw 0;
     background-color: #3f3f3f;
-    margin-bottom: 5.48vw;
+    margin-bottom: 4vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -9,7 +9,7 @@ footer{
 }
 
 footer a img{
-    width: 1.7vw;
+    width: 1.2vw;
 }
 
 .footer_right{
@@ -22,12 +22,12 @@ footer a img{
 .footer_right p{
     color: white;
     text-align: left;
-    font-size: 1.7vw;
+    font-size: 1vw;
     margin-top: 0px;
 }
 
 .footer_right img{
-    width: 8.23vw;
+    width: 4.3vw;
 }
 
 .footer_left{
@@ -38,12 +38,13 @@ footer a img{
 }
 
 .footer_left a{
-    gap: 0.68vw;
+    gap: 0.4vw;
     color: white;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 1vw;
 }
 
 
@@ -73,12 +74,12 @@ footer a img{
     .footer_right p{
         color: white;
         text-align: center;
-        font-size: 2.2vw;
+        font-size: 2.5vw;
         margin-top: 0px;
     }
     
     .footer_right img{
-        width: 18vw;
+        width: 15vw;
     }
     
     .footer_left{
@@ -95,5 +96,6 @@ footer a img{
         display: flex;
         flex-direction: row;
         align-items: center;
+        font-size: 2.5vw;
     }
 }

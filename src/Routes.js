@@ -6,7 +6,7 @@ import Python from './Components/Courses/Python';
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" />
+      <Route path="/" element={<Python />} />
       <Route path="/:title" element={<Python />} />
     </Routes>
   );

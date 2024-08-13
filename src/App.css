@@ -8,15 +8,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
+
+
 
 @media (min-width: 701px){
     .App{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        width: 80%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
     }
 }
+
+

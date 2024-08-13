@@ -6,6 +6,7 @@
     border-radius: 0.68vw;
     box-shadow: 0px 0px 0.68vw 0.06vw rgba(0, 0, 0, 0.1);
     background: radial-gradient(circle at bottom right, #fcdbdb 0, #fff 110%);
+    font-size: 1.5vw;
 }
 
 .head{
@@ -51,6 +52,7 @@
     color: #d6001c;
     font-weight: 400;
     width: 100%;
+    font-size: 1.3vw;
 }
 
 
@@ -63,6 +65,7 @@
         border-radius: 2vw;
         box-shadow: 0px 0px 2vw 0.2vw rgba(0, 0, 0, 0.1);
         background: radial-gradient(circle at bottom right, #fcdbdb 0, #fff 110%);
+        font-size: 4vw;
     }
     
     .head{
@@ -108,5 +111,6 @@
         color: #d6001c;
         font-weight: 400;
         width: 100%;
+        font-size: 3vw;
     }
 }

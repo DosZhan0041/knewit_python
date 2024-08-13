@@ -55,7 +55,7 @@ header a img {
         align-items: center;
         justify-content: space-between;
         position: fixed;
-        width: calc(90% - 10%);
+        width: calc(60% - 10%);
         height: 6vw;
         top: 0;
         z-index: 4;
@@ -68,19 +68,19 @@ header a img {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 1vw;
+        gap: 0.2vw;
     }
     
     header img {
-        width: 6vw;
+        width: 5vw;
     }
     
     header a img {
-        width: 2vw;
+        width: 1.3vw;
     }
 
     a{
-        font-size: 2vw;
+        font-size: 1.1vw;
     }
     
     .scrolled{
@@ -107,7 +107,7 @@ header a img {
         justify-content: space-between;
         position: fixed;
         width: calc(100%);
-        height: 12vw;
+        height: 15vw;
         top: 0;
         z-index: 4;
         transition: 0.5s;
@@ -123,7 +123,7 @@ header a img {
     }
     
     header img {
-        width: 11vw;
+        width: 13vw;
     }
     
     header a img {
@@ -131,7 +131,7 @@ header a img {
     }
 
     a{
-        font-size: 3.4vw;
+        font-size: 3.2vw;
     }
     
     .scrolled{

@@ -32,14 +32,14 @@ function Python() {
                 name: data.name,
                 phone: data.phone,
                 city: data.city,
-                details: data.details
+                details: data.details,
             };
 
             await emailjs.send(
-                'service_k557fm8', // замените на ваш service ID из EmailJS
-                'template_iuxqz2h', // замените на ваш template ID из EmailJS
+                'service_rp4f54x', // замените на ваш service ID из EmailJS
+                'template_c3eg3gx', // замените на ваш template ID из EmailJS
                 templateParams,
-                'g35ByI4m1j2tV61_U' // замените на ваш user ID из EmailJS
+                'Zvug-wL9r-ptAUi0a' // замените на ваш user ID из EmailJS
             );
 
             alert('Заявка успешно отправлена!');

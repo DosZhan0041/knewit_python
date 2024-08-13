@@ -23,7 +23,7 @@ function Header() {
     return (
         <header className={isScrolled ? s.scrolled : ''}>
             <img src="Assets/logo.png" alt="" />
-            <a href=""> <img src="Assets/phone.png" alt="" />+7 (701) 938-04-63</a>
+            <a href="tel:+77019380463"> <img src="Assets/phone.png" alt="" />+7 (701) 938-04-63</a>
         </header>
     )
 }

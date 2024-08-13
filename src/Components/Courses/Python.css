@@ -82,7 +82,7 @@ justify-content: center;
 
 .form_input input {
 width: 70%;
-height: 3vw;
+height: 3.5vw;
 border-radius: 1.37vw;
 padding: 0.54vw 1vw;
 font-size: 1vw;
@@ -94,7 +94,7 @@ width: 75%;
 height: 15%;
 border-radius: 1.37vw;
 border: none;
-background-color: #5A49F8;
+background-color: #16BA5A;
 color: white;
 font-size: 1.16vw;
 margin-bottom: 1vw;
@@ -182,8 +182,8 @@ display: none;
       text-transform: uppercase;
       position: fixed;
       bottom: 0px;
-      width: 80%;
-      min-height: 6vw;
+      width: 50%;
+      min-height: 4vw;
       color: white;
       box-shadow: 0px 0px 3vw 0.2vw rgba(0, 0, 0, 0.4);
       border: none;
@@ -194,7 +194,7 @@ display: none;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 2vw;
+      font-size: 1.3vw;
   }
   
   @keyframes gradient {
@@ -217,35 +217,46 @@ display: none;
 @media (max-width: 768px) {
 
   .form{
-    width: 70%;
-    height: 80vw;
+    width: 90%;
+    height: 120vw;
     gap: 1vw;
     padding: 3vw;
+    padding-top: 8vw;
+  }
+
+ 
+
+  .icon_remove{
+    font-size: 5vw;
   }
 
 
+.form_input{
+  height: 55%;
+  gap: 3.2vw;
+}
   .form_input input{
-    width: 90%;
-    height: 5.5vw;
-    font-size: 2.1vw;
+    width: 95%;
+    height: 8vw;
+    font-size: 3.5vw;
   }
 
   .form button{
     width: 90%;
     height: 10vw;
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin-top: 1vw;
   }
 
   .form h1{
-    font-size: 5vw;
+    font-size: 7vw;
   }
   .form p{
-    font-size: 3vw;
+    font-size: 4.5vw;
     text-align: center;
   }
   .form h3{
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
   }
 
@@ -271,7 +282,7 @@ display: none;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 4vw;
+      font-size: 3vw;
   }
   
   @keyframes gradient {

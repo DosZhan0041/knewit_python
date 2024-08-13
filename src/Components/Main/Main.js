@@ -6,7 +6,7 @@ function Main() {
 
 
 
-    const targetDate = '2024-08-10T23:59:59';
+    const targetDate = '2024-08-15T23:59:59';
 
 
 
