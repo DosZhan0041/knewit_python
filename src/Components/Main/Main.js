@@ -93,7 +93,7 @@ function Main() {
 
 
                 <div className={s.plan}>
-                    <div className={s.plan_title}><span><img src="Assets/python.png" alt="" />plan.py</span><a href=""
+                    <div className={s.plan_title}><span><img src="Assets/python.png" alt="" />plan.py</span><a target='_blank' href="https://drive.google.com/file/d/1yJZR41BnCGKd2DnZqj6I3InOXK6NHuDq/view"
                         className={s.plan_button}>Посмотреть план</a></div>
                     <div className={s.dict_obj}>
                         <p className={s.dict}>что вы изучите = <span className={s.bracket2}>{'{'}</span></p>
